@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    width:100vw
+}
+
+nav {
+    text-align: right;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+   color: #68D8D6;
+}
+
+.nav-space {
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.google-logo {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.search {
+    position: relative;
+}
+
+.search-bar {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.search-bar:hover {
+    box-shadow: 4px 2px 4px 2px lightgray;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 4px 2px 4px 2px lightgray;
+}
+
+.voice-icon {
+    position: absolute;
+    right: 410px;
+    top: 14px; 
+    width: 20px;
+    height: 20px;
+}
+
+.button-area {
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+.google-button {
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.google-button:hover {
+    border: 1px solid lightgray;
+}
+
+.google-offer a {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nav {
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 40px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    
+}
+
+.footer-country {
+    padding-left: 35px;
+    background-color: #f2f2f2;
+    height: 20px;
+    border-top: 1px solid lightgray;
+    color: rgb(78, 77, 77);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.footer-nav-right {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-nav-left {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-item {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
