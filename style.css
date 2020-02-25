@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    width:100vw
+    width: 100vw
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 .nav-item:hover {
-   color: #68D8D6;
+    color: #68D8D6;
 }
 
 .nav-space {
@@ -62,9 +62,9 @@ section {
 }
 
 .voice-icon {
-    position: absolute;
-    right: 410px;
-    top: 14px; 
+    position: relative;
+    right: 38px;
+    top: 5px;
     width: 20px;
     height: 20px;
 }
@@ -72,7 +72,6 @@ section {
 .button-area {
     margin-top: 40px;
     margin-bottom: 10px;
-
 }
 
 .google-button {
@@ -93,7 +92,6 @@ section {
     text-decoration: none;
 }
 
-
 footer {
     position: absolute;
     bottom: 0;
@@ -107,7 +105,6 @@ footer {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     position: relative;
-    
 }
 
 .footer-country {
@@ -149,7 +146,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    
 }
 
 .footer-country a {
